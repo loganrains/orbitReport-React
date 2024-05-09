@@ -10,9 +10,9 @@ const Table = ({ sat }) => {
         </tr>
       </thead>
       <tbody>
-      {sat.map((data, id) => {
+      {sat.map((data) => {
         return (
-          <tr key={id}>
+          <tr key={data.id}>
             <td>{data.name}</td>
             <td>{data.type}</td>
             <td>{data.launchDate}</td>
